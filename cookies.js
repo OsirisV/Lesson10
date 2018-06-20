@@ -3,7 +3,7 @@ function createCookie(name, value, days, path, domain, secure) {
         var date = new Date();
         date.setTime( date.getTime() + (days*24*60*60*1000));
         var expires = date.toGMTString();
-    }
+    } 
     else var expires = "";
     cookieString = name + "=" + escape (value);
     if (expires) cookieString +=   "; expires=" + expires;
